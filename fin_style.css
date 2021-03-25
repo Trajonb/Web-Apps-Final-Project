@@ -63,6 +63,7 @@ body {
   flex: 10%;
   background-color: #814b7f;
   padding: 10px;
+  color: white;
 }
 
 /* Main column */
@@ -72,20 +73,23 @@ body {
   background-color: #814b7f;
   padding: 20px;
   font-size: 20px;
+  color: white;
 }
 
 /* Fake image, just for this example */
-.fakeimg2 {
+.paragraph1 {
   background-color: #333;
   width: 100%;
   padding: 20px;
+  color: white;
 }
 
 /* Fake image, just for this example */
-.fakeimg3 {
+.paragraph2 {
   background-color: #333;
   width: 100%;
   padding: 20px;
+  color: white;
 }
 
 /* Footer */
@@ -110,3 +114,23 @@ body {
   }
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #333;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}

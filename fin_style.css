@@ -15,8 +15,21 @@ body {
   background-image: url("header.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 310px;
+  height: 335px;
   color: white;
+}
+
+.comment-input {
+  text-align: right;
+}
+
+.button1 {
+  padding: 8px 35px;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  background-color: #333;
+  border: white;
 }
 
 /* Increase the font size of the heading */
@@ -32,12 +45,12 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  font-size: 41px;
+  font-size: 35px;
   float: left;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 135px;
+  padding: 14px 150px;
   text-decoration: none;
 }
 
@@ -143,4 +156,48 @@ a:active {
   color: white;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 1500px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  display: flex;
+  display: none;
+}
+
+.modal-content {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 300px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+input{
+  width: 50%;
+  display: block;
+  margin: 15px auto;
+}
+
+.button2 {
+  font-size: 25px;
+  color: #333;
+  background-color: #a86ca6;
+  border: white;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 42px;
+  transform: rotate(45deg);
+  cursor: pointer;
 }

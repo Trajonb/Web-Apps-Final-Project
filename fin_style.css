@@ -15,7 +15,7 @@ body {
   background-image: url("header.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 335px;
+  height: auto;
   color: white;
 }
 
@@ -45,6 +45,7 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
+  overflow: initial;
   font-size: 35px;
   float: left;
   display: block;

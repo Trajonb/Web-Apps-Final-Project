@@ -95,6 +95,7 @@ body {
   font-size: 20px;
   color: white;
   font-size: 25px;
+  text-align: left;
 }
 
 /* Fake image, just for this example */
@@ -204,4 +205,9 @@ input{
   font-size: 42px;
   transform: rotate(45deg);
   cursor: pointer;
+}
+
+.post {
+  text-align: left;
+  margin: center;
 }

@@ -211,3 +211,14 @@ input{
   text-align: left;
   margin: center;
 }
+
+* { 
+  padding: 0; 
+  margin: 0; 
+}
+
+canvas { 
+  background-image: url("game_image.jpg");
+  display: block; 
+  margin: left; 
+}
